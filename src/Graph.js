@@ -37,7 +37,7 @@ export const Plot = () => {
     xAxis: {
       title: {
         enabled: true,
-        text: "lambda"
+        text: "mu"
       },
       startOnTick: true,
       endOnTick: true,
