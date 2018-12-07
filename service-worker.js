@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Sasha95/logisticCurv/precache-manifest.14d21addc90bcc7462afa18f2308cdc2.js"
+  "/logisticCurv/precache-manifest.66290d749f22a4b0c392cb8381a76d5b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Sasha95/logisticCurv/index.html", {
+workbox.routing.registerNavigationRoute("/logisticCurv/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
