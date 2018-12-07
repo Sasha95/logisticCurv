@@ -6,7 +6,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HeadFormule />
+        <div style={{ textAlign: "center" }}>
+          <HeadFormule />
+        </div>
+        <br />
+        <br />
         <Plot />
       </div>
     );
